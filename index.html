@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Portfolio</title>
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---header--->
+    <header>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#Clubs">Clubs</a></li>            
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+<!---Portfolio Homepage--->
+<section class="home" id="home">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="img/video4.mp4" type="video/mp4">
+    </video>
+    <div class="home-text">
+        <h4>Hi!</h4>
+        <h1>I'm Alison Tea <br> </h1>
+        <h3>Welcome to my portfolio! </h3>
+        <a href="file:///C:/Users/Egghead/OneDrive%20-%20UW/FULL%20TIME%20JOB!/Alison_Tea_EmbeddedEngr.pdf" class="btn" target="_blank">Download Resume</a>
+    </div>
+</section>
+
+<!---about--->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="C:\Users\Egghead\OneDrive - UW\Pictures\headshot.jpg">
+    </div>
+
+    <div class="about-text">
+        <h2>About Me!</h2>
+        <h4>Hi, My name is Alison Tea !</h4>
+        <p>I am an Electrical and Computer Engineering student at the University of Washington.</p>
+        <p>My passion lies in developing customer-focused solutions across Embedded Systems, Software Development, and Product Management.</p>
+        <p>In my free time, I love to read books, play tennis, and go on outdoor runs!</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<!-- -Experience- -->
+<section class="experience" id="experience">
+    <div class="main-text">
+        <h2>My Experiences</h2>
+    </div>
+    <br>
+    <div class="experience-content">
+        <div class="box">
+            <img src="C:\Users\Egghead\OneDrive - UW\Pictures\paccar.jpg" >
+            <h3>PACCAR</h3>
+            <h4>
+                <span>
+                    Software Release Engineer Intern
+                </span>
+            </h4>
+            <br>
+            <p>
+                o	Led end-to-end software release deliveries across PACCAR’s 14 product lines, tracking embedded software development, testing phases, and defect resolution using Agile Scrum methodologies 
+                <br>
+                o	Conducted software integration testing via Jenkins, Azure DevOps, and Vector CANoe for CI/CD pipelines to resolve defects in the digital display’s software code
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- -portfolio- -->
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <h2>My Projects</h2>
+    </div>
+
+    <div class="portfolio-content">
+        <div class="row">
+            <a href="https://github.com/engineeralison/474-Assignments/tree/main/FinalProject" target="_blank">
+                <img src= "C:\Users\Egghead\Downloads\Image.jpg">
+            </a>
+                <div class="main-row">
+                <div class="row-text">
+                    <h6>Embedded Systems | C++ | FreeRTOS | ESP32 | Arduino </h6>
+                </div>
+            </div>
+            <h3>Embedded Alarm Sensor System</h3>
+        </div>
+
+        <div class="row">
+            <a href="https://github.com/matthewnochi/Language-Detection" target="_blank">
+                <img src="C:\Users\Egghead\OneDrive - UW\Pictures\Mulitilingualism.jpg">
+            </a>
+            <div class="main-row">
+                <div class="row-text">
+                    <h6>Machine Learning | Python | TinyML | EdgeImpulse | PyTorch </h6>
+                </div>
+            </div>
+            <h3>Multiligual Speech Recongition</h3>
+        </div>
+        
+        <div class="row">
+            <a href="https://github.com/engineeralison/ComputerArchitecture" target="_blank">
+                <img src="C:\Users\Egghead\OneDrive - UW\Pictures\cpu.jpg">
+            </a>
+            <div class="main-row">
+                <div class="row-text">
+                    <h6>Computer Architecture | SystemVerilog | Quartus Modelsim</h6>
+                </div>
+            </div>
+            <h3>64-Bit Central Processing Unit Design</h3>
+        </div>
+</section>
+
+<!-- -Clubs- -->
+<section class="Clubs" id="Clubs">
+    <div class="main-text">
+        <h2>My Extracurriculars!</h2>
+        <h4>Leadership, Teamwork, & Communiation</h4>
+    </div>
+    <br>
+    <div class="experience-content">
+        <div class="box">
+            <img src="C:\Users\Egghead\OneDrive - UW\Pictures\dubhacks.png">
+            <h3>Director of Logistics</h3>
+            <h4>
+                <span>
+                    DubHacks Hackathon Team (February-October 2024)
+                </span>
+            </h4>
+            <br>
+            <p>
+                o	Directed logistics for PNW's largest hackathon (1,200+ hackers) hosted at the University of Washington
+                <br>
+                o	Handled venue reservations, hackathon schedule, food, prizes, and workshops
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="experience-content">
+        <div class="box">
+            <img src= "C:\Users\Egghead\OneDrive - UW\Pictures\SWE-logo.png">
+            <h3>Vice President of Membership</h3>
+            <h4>
+                <span>
+                    Society of Women Engineers (June 2024 - June 2025)
+                </span>
+            </h4>
+            <br>
+            <p>
+                o	Planned and executed recruiting events, academic workshops, and fundrasing campaigns to 500+ members
+                <br>
+                o	Oversaw 16 officers, managing project timelines by delegating tasks and tracking metrics
+                <br>
+                o   Developed and launched a new membership initiative (SWE Families), increasing engagement by 170+ members
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- -contact- -->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>My Contact</h2>
+        <h4>Let's Work Together!</h4>
+        <div class="contact-list">
+            <li><a href="#">Greater Seattle Area</a></li>
+            <li><a href="#">alisonltea@gmail.com</a></li>
+            <a href="mailto: alisonltea@gmail.com">
+                <button class="btn">
+                    Let's Chat
+                </button>
+            </a>
+        </div>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/alisontea/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+           
+            <a href="https://github.com/engineeralison " target="_blank"><i class='bx bxl-github' ></i></a>
+
+
+        </div>
+    </div> 
+</section>
+
+    <!---scroll-top--->
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---custom js link--->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
