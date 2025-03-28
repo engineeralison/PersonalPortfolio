@@ -11,10 +11,9 @@
 :root{
     --bg-color: #F8FAFC ;
     --text-color: #2D2D2D ;
-    --main-color: #D9EAFD  ; /* Muted Lavender */
-    --second-color: #9ec3e7 ; /* Pale Lilac */
+    --main-color: #BCCCDC  ; /* Muted Lavender */
+    --second-color: #9AA6B2 ; /* Pale Lilac */
     --highlight-color: #6B5C9A; /* Deep Violet */
-    --hover-color: #E43F5A ; /* Ultra Light Periwinkle */
 
     --h1-font: 5.2rem;
     --h2-font: 3.5rem;
@@ -164,11 +163,12 @@ header.sticky{
     text-align: center;
 }
 .main-text h2{
-    font-size: var(--h2-font);
+    font-size: var(#2D2D2D);
+    font-size: 24px;
     margin-bottom: 10px;
 }
 .main-text h4{
-    color: var(--main-color);
+    color: var(#2D2D2D);
     font-size: 24px;
     font-weight: 600;
 }
@@ -182,7 +182,7 @@ header.sticky{
 }
 .box{
     padding: 45px;
-    background: #12141c;
+    background: #BCCCDC;
     border-top: 5px solid transparent;
     border-radius: 0.5rem;
     transition: all .40s ease;
@@ -195,7 +195,7 @@ header.sticky{
     transition: all .40s ease;
 }
 .box p{
-    color: var(--second-color);
+    color: var(#D9EAFD);
     font-size: var(--p-font);
     line-height: 30px;
 }
@@ -204,7 +204,7 @@ header.sticky{
     border-top: 5px solid var(--main-color);
 }
 .box:hover h3{
-    color: var(--main-color);
+    color: var(#2746cc);
 }
 
 .portfolio-content{
@@ -222,7 +222,7 @@ header.sticky{
 }
 .row{
     padding: 25px;
-    background: #12141c;
+    background: #BCCCDC;
     border-radius: 0.5rem;
     transition: all .40s ease;
 }
@@ -237,7 +237,7 @@ header.sticky{
     font-weight: 700;
 }
 .row h6{
-    color: var(--main-color);
+    color: var(#2D2D2D);
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
